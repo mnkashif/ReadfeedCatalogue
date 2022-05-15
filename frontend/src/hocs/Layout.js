@@ -2,10 +2,11 @@ import React from "react";
 import Navbar from "../components/Navbar.js";
 
 const layout = (props) => {
-    <div>
+    return (<div>
         <Navbar/>
+        {props.children}
 
-    </div>
+    </div>);
 
 }
 
